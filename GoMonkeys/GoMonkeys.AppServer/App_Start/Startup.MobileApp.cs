@@ -51,7 +51,7 @@ namespace GoMonkeysService
         }
     }
 
-    public class GoSelfiesInitializer : DropCreateDatabaseAlways<GoMonkeysContext>
+    public class GoSelfiesInitializer : DropCreateDatabaseIfModelChanges<GoMonkeysContext>
     {
         protected override void Seed(GoMonkeysContext context)
         {

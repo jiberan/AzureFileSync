@@ -11,7 +11,7 @@ namespace GoMonkeys
 {
     public class App : Application
     {
-        public static readonly string ApplicationURL = @"http://goselfies.azurewebsites.net/";
+        public static readonly string ApplicationURL = @"http://standovo.azurewebsites.net/";
         public static readonly string GatewayURL = @"";
         public static readonly string ApplicationKey = @"";
         static readonly MonkeyDataManager monkeyDataManager = new MonkeyDataManager();
