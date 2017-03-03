@@ -22,5 +22,7 @@ namespace GoMonkeys.Models
         [Version]
         public string Version { get; set; }
 
+        public ICollection<TodoItem> TodoItems { get; set; } 
+
     }
 }

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GoMonkeys.Models;
 
 namespace GoMonkeys
 {
@@ -45,5 +46,7 @@ namespace GoMonkeys
 
         [Version]
         public string Version { get; set; }
+
+        public Monkey Monkey { get; set; }
     }
 }
