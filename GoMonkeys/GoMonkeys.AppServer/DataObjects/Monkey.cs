@@ -10,5 +10,6 @@ namespace GoMonkeysService.DataObjects
     {
         public string Status { get; set; }
         public string UserName { get; set; }
+        public ICollection<TodoItem> TodoItems { get; set; }
     }
 }

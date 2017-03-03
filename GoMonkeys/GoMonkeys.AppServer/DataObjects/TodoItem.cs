@@ -7,5 +7,7 @@ namespace GoMonkeysService.DataObjects
         public string Text { get; set; }
 
         public bool Complete { get; set; }
+        public Monkey Monkey { get; set; }
+
     }
 }
