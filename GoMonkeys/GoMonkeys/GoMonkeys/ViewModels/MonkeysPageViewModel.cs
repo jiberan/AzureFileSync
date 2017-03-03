@@ -37,7 +37,9 @@ namespace GoMonkeys.ViewModels
             var dataManager = App.MonkeyDataManager;
 
             var monkeys = await dataManager.GetMonkeysAsync();
-             
+
+
+
             foreach (var item in monkeys)
             {
          

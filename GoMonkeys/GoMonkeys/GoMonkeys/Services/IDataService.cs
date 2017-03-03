@@ -15,5 +15,6 @@ namespace GoMonkeys
         MobileServiceClient Client { get; }
 
         IMobileServiceSyncTable<Monkey> MonkeyTable { get; }
+        IMobileServiceSyncTable<TodoItem> TodoItem { get; set; }
     }
 }
